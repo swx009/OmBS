@@ -1,8 +1,6 @@
 A super-resolution method based on gastroscopic images.
 The dataset can be download in https://davidrecasens.github.io/EndoDepthAndMotion/   
 
-Modified from:Omni Aggregation Networks for Lightweight Image Super-Resolution (OmniSR)，and can be downloaded from https://arxiv.org/pdf/2304.10244
-
 Installation：
 
 Dependencies:
@@ -27,7 +25,7 @@ Step2, please download benchmark (baidu cloud (passwd: sjtu) , Google driver), a
 Step3, training with DIV2K dataset:
 python train.py -v "OmniSR_X4_DIV2K" -p train --train_yaml "train_OmniSR_X4_DIV2K.yaml"
 
-
+Modified from:Omni Aggregation Networks for Lightweight Image Super-Resolution (OmniSR)，and can be downloaded from https://arxiv.org/pdf/2304.10244
 
 
 
